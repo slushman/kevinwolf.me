@@ -1,24 +1,10 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import styled from 'react-emotion'
 import Img from 'gatsby-image'
 import 'confetti-js'
 
 import Layout from '../components/layout'
-import Link from '../components/link'
 import Icon from '../components/icon'
-
-const SocialLink = styled(Link)`
-  color: #bbb;
-  display: inline-block;
-  margin: 8px;
-  transition: all 1s ease;
-
-  &:hover {
-    color: initial;
-    transform: scale(1.3);
-  }
-`
 
 const Index = () => (
   <StaticQuery
@@ -66,9 +52,26 @@ const Index = () => (
           `}
         >
           {home.frontmatter.links.map(link => (
-            <SocialLink key={link.name} to={link.url} title={link.name}>
+            <a
+              key={link.name}
+              rel='noreferrer'
+              target='_blank'
+              href={link.url}
+              title={link.name}
+              css={`
+                color: #bbb;
+                display: inline-block;
+                margin: 8px;
+                transition: all 1s ease;
+
+                &:hover {
+                  color: initial;
+                  transform: scale(1.3);
+                }
+              `}
+            >
               <Icon icon={link.icon} />
-            </SocialLink>
+            </a>
           ))}
         </div>
       </Layout>

@@ -16,6 +16,11 @@ links:
     icon:
       - fab
       - linkedin
+  - url: mailto:hi@kevinwolf.me
+    name: Email
+    icon:
+      - fas
+      - envelope
 ---
 
 # Hello!

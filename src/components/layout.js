@@ -61,6 +61,7 @@ class Layout extends React.Component {
           >
             {/* Headers. */}
             <Helmet defaultTitle={site.siteMetadata.title} titleTemplate={`%s`}>
+              <html lang='en' />
               <meta charSet='utf-8' />
               <meta name='msapplication-TileColor' content='#da532c' />
               <meta name='theme-color' content='#ffffff' />
@@ -68,7 +69,6 @@ class Layout extends React.Component {
                 name='description'
                 content={site.siteMetadata.description}
               />
-
               <link
                 rel='apple-touch-icon'
                 sizes='180x180'

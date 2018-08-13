@@ -66,7 +66,7 @@ const Index = () => (
           `}
         >
           {home.frontmatter.links.map(link => (
-            <SocialLink key={link.name} to={link.url}>
+            <SocialLink key={link.name} to={link.url} title={link.name}>
               <Icon icon={link.icon} />
             </SocialLink>
           ))}

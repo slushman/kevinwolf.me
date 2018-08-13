@@ -24,8 +24,8 @@ Hello! This is the source code for [my portfolio website](https://kevinwolf.me).
 
 ## TODO
 
-- [ ] improve accessibility
-- [ ] progressive web app
+- [x] improve accessibility
+- [x] progressive web app
 - [ ] blog
 - [ ] work showcase
 - [ ] contact form

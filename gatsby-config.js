@@ -7,6 +7,19 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Kevin Wolf',
+        short_name: 'Kevin Wolf',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#00CCD7',
+        display: 'minimal-ui',
+        icon: 'static/icon.png'
+      }
+    },
+    'gatsby-plugin-offline',
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',

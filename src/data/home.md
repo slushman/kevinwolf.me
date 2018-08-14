@@ -1,5 +1,4 @@
 ---
-title: "a"
 links:
   - url: https://github.com/kevinwolfcr
     name: Github

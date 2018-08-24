@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link as GatsbyLink } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Link = ({ children, to, ...other }) =>
   /^\/(?!\/)/.test(to) ? (
@@ -8,9 +9,9 @@ const Link = ({ children, to, ...other }) =>
       {children}
     </GatsbyLink>
   ) : (
-    <a href={to} target='_blank' {...other}>
+    <OutboundLink href={to} target='_blank' {...other}>
       {children}
-    </a>
+    </OutboundLink>
   )
 
 Link.propTypes = {

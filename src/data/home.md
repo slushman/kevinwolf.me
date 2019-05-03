@@ -26,7 +26,7 @@ links:
 
 My name is **Kevin Wolf** and I am a **Full Stack Developer** from **San José, Costa Rica**.
 
-I currently work as an [**indepentent contractor**](https://www.linkedin.com/in/kevinvillalobos/), helping teams and companies deliver high quality and blazing fast products with cutting edge technologies.
+I currently work as an [**independent contractor**](https://www.linkedin.com/in/kevinvillalobos/), helping teams and companies deliver high quality and blazing fast products with cutting edge technologies.
 
 I have strong experience working with technologies like **React**, **React Native** and **Amazon Web Services**.
 
